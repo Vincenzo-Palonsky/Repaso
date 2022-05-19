@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class ActivateDeactivate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject myObject;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            //    if (myObject.activeInHierarchy)
+            //    {
+            //        myObject.SetActive(false);
+            //    }
+
+            //    else
+            //    {
+            //        myObject.SetActive(true);
+            //    }    
+            myObject.SetActive(!myObject.activeInHierarchy);
+        }    
     }
 }
