@@ -31,7 +31,7 @@ public class movimientoPlataforma : MonoBehaviour
             transform.position -= new Vector3(velocidadPlataforma, 0, 0);
         }
 
-        if (transform.position.x >= baseDer.transform.position.x-1.5)
+        if (transform.position.x >= baseDer.transform.position.x-1)
         {
             movDerecha = false;
             clon = Instantiate(prefabCilindro);
@@ -39,7 +39,7 @@ public class movimientoPlataforma : MonoBehaviour
             yCilindro++;
         }
 
-        else if (transform.position.x <= baseIzq.transform.position.x+1.5)
+        else if (transform.position.x <= baseIzq.transform.position.x+1)
         {
             movDerecha = true;
             clon = Instantiate(prefabEsfera);

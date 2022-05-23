@@ -359,7 +359,7 @@ Transform:
   m_GameObject: {fileID: 1294410292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.06, z: 0}
-  m_LocalScale: {x: 2.1243467, y: 0.18104695, z: 1.7532035}
+  m_LocalScale: {x: 1.3721187, y: 0.18104695, z: 1.6102905}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -382,8 +382,7 @@ MonoBehaviour:
     type: 3}
   prefabCilindro: {fileID: 5046826131715252981, guid: 80865a9a7462b1f41bb48fc1e23fc391,
     type: 3}
-  velocidadPlataforma: 0.16
-  movDerecha: 1
+  velocidadPlataforma: 0.15
 --- !u!1 &1356108908
 GameObject:
   m_ObjectHideFlags: 0
